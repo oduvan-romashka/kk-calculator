@@ -1,0 +1,30 @@
+body {
+    margin-top: 40px !important;
+    text-align: center;
+}
+
+.container-fluid {
+    display: flex;
+}
+
+.panel-heading {
+    font-weight: bold;
+}
+
+.container-fluid button {
+    width: 100%;
+    margin: 10px 5px;
+}
+
+.panel-heading {
+    font-size: 20px;
+}
+
+.form-control {
+    text-align: right;
+}
+
+#calcScreen {
+    padding-right: 20px;
+    font-size: 25px;
+}

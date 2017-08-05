@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>kk-calculator</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.min.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap-material-design/dist/css/ripples.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="panel panel-default">
+            <div class="panel-heading">Calculator</div>
+            <div class="panel-body">
+                <input id="calcScreen" class="form-control" type="text" value="0" disabled>
+
+                <div class="container-fluid">
+                    <button data-action="1" class="btn btn-default btn-raised">1</button>
+                    <button data-action="2" class="btn btn-default btn-raised">2</button>
+                    <button data-action="3" class="btn btn-default btn-raised">3</button>
+                    <button data-action="+" class="btn btn-default btn-raised">+</button>
+                </div>
+
+                <div class="container-fluid">
+                    <button data-action="4" class="btn btn-default btn-raised">4</button>
+                    <button data-action="5" class="btn btn-default btn-raised">5</button>
+                    <button data-action="6" class="btn btn-default btn-raised">6</button>
+                    <button data-action="-" class="btn btn-default btn-raised">-</button>
+                </div>
+
+                <div class="container-fluid">
+                    <button data-action="7" class="btn btn-default btn-raised">7</button>
+                    <button data-action="8" class="btn btn-default btn-raised">8</button>
+                    <button data-action="9" class="btn btn-default btn-raised">9</button>
+                    <button data-action="/" class="btn btn-default btn-raised">/</button>
+                </div>
+
+                <div class="container-fluid">
+                    <button data-action="0" class="btn btn-default btn-raised">0</button>
+                    <button data-action="(" class="btn btn-default btn-raised">(</button>
+                    <button data-action=")" class="btn btn-default btn-raised">)</button>
+                    <button data-action="*" class="btn btn-default btn-raised">*</button>
+                </div>
+
+                <div class="container-fluid">
+                    <button data-action="C" class="btn btn-default btn-raised">C</button>
+                    <button data-action="=" class="btn btn-default btn-raised">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap-material-design/dist/js/material.min.js"></script>
+    <script type="text/javascript" src="node_modules/mathjs/dist/math.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+
+</html>
